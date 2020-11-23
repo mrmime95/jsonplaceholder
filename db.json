@@ -1,0 +1,122 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "objectID": 1,
+      "supplierID": 1,
+      "begindate": "2020-01-13 11:00",
+      "checkin": "14:00",
+      "checkout": "11:00",
+      "enddate": "2020-01-16 11:00",
+      "name": "Lorem ipsum Hotel",
+      "period": 3,
+      "price": 24.4,
+      "status": 1,
+      "valutum": "euro"
+    },
+    {
+      "id": 2,
+      "objectID": 2,
+      "supplierID": 2,
+      "begindate": "2020-01-13 11:00",
+      "checkin": "14:00",
+      "checkout": "11:00",
+      "enddate": "2020-01-16 11:00",
+      "name": "Lorem ipsum Motel",
+      "period": 3,
+      "price": 24.4,
+      "status": 1,
+      "valutum": "euro"
+    },
+    {
+      "id": 3,
+      "objectID": 3,
+      "supplierID": 3,
+      "begindate": "2020-01-13 11:00",
+      "checkin": "14:00",
+      "checkout": "11:00",
+      "enddate": "2020-01-16 11:00",
+      "name": "Lorem ipsum Apartman",
+      "period": 3,
+      "price": 24.4,
+      "status": 1,
+      "valutum": "euro"
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "country": "UK",
+      "isabundant": true,
+      "isavailable": true,
+      "maxserves": 5,
+      "minserves": 1,
+      "name": "Lorem Ipsum",
+      "parentobject": 1,
+      "since": "2020-01-13 11:00"
+    },
+    {
+      "id": 2,
+      "country": "UK",
+      "isabundant": true,
+      "isavailable": true,
+      "maxserves": 5,
+      "minserves": 1,
+      "name": "Jr. Lorem Ipsum",
+      "parentobject": 2,
+      "since": "2020-01-14 11:00"
+    },
+    {
+      "id": 3,
+      "country": "UK",
+      "isabundant": true,
+      "isavailable": true,
+      "maxserves": 5,
+      "minserves": 1,
+      "name": "Sr. Lorem Ipsum",
+      "parentobject": 3,
+      "since": "2020-01-15 11:00"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "address": "Whatever street",
+      "comission": "simply dummy",
+      "comissiontype": "a long established fact",
+      "email": "skylarmay@test.com",
+      "image": "https://placekitten.com/g/200/300",
+      "manager": "popular",
+      "name": "Skylar May",
+      "status": 1,
+      "taxes": "Lipsum",
+      "website": "https://test.com"
+    },
+    {
+      "id": 2,
+      "address": "Whatever street",
+      "comission": "simply dummy",
+      "comissiontype": "a long established fact",
+      "email": "jsalinas573@sanilasenihpesoj.biz",
+      "image": "https://placekitten.com/g/200/300",
+      "manager": "popular",
+      "name": "Josephine Salinas",
+      "status": 1,
+      "taxes": "Lipsum",
+      "website": "https://ipsum.com"
+    },
+    {
+      "id": 3,
+      "address": "Whatever street",
+      "comission": "simply dummy",
+      "comissiontype": "a long established fact",
+      "email": "nwebb277@bbewleinahtan.org",
+      "image": "https://placekitten.com/g/200/300",
+      "manager": "popular",
+      "name": "Nathaniel Webb",
+      "status": 1,
+      "taxes": "Lipsum",
+      "website": "https://lorem.com"
+    }
+  ]
+}
